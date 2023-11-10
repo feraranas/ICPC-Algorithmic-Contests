@@ -28,3 +28,6 @@
 - Max Sell Stock [MaxSellStock.py](./ICPCExercises/MaxSellStock/MaxSellStock.py)
 - Minimal Square [MinimalSquare.py](./ICPCExercises/MinimalSquare/MinimalSquare.py)
 
+### Number Theory
+- Divide and Conquer [DivideAndConquer.py](./ICPCExercises/DivideAndConquer/DivideAndConquer.py)
+- Marin and Anti-coprime Permutation [MarinAnti-coprimePermutation.py](./ICPCExercises/MarinAnti-coprimePermutation/MarinAnti-coprimePermutation.py)

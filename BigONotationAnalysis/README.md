@@ -1,9 +1,10 @@
-<details>
 <summary>BIG O, INTERVIEWING & OPTIMIZING</summary>
 
-<hr style="border:2px solid gray">
+<hr style="border:6px dashed blue">
 
-### The general principles of Big O are: 
+<details>
+<summary>The general principles of Big O</summary>
+<hr style="border:2px solid red">
 
 1. Include all things: focus on sub-functions too.
 2. Use logical variable names. Don't toss around n.
@@ -14,8 +15,12 @@
 7. Drop non-dominant terms.
 8. A lower big O doesn't mean always faster. It means faster when the data is sufficiently large.
 9. It's about scale!
+</details>
 
-### Tips on interviewing:
+<details>
+<summary>Tips on interviewing</summary>
+<hr style="border:2px solid green">
+
 1. Listen... for clues
      > "Given two arrays that are sorted and distinct, find the number of elements in common."
 
@@ -34,8 +39,12 @@
 4. Optimize => If came up with something slow, just state the runtime & do an effort to optimize.
 5. Walk through the algorithm => make sure you know exactly what you're doing before you code.
 6. Once you're all done, look for any improvements.
+</details>
 
-### Tips on optimizing an algorithm:
+<details>
+<summary>Tips on optimizing an algorithm</summary>
+<hr style="border:2px solid orange">
+
 > TECHNIQUE: OPTIMIZING WITH BUD
 1. Bottlenecks
      Think of this example: 
@@ -50,6 +59,9 @@
 - Consider upfront work to save yourself time down the road
      > pre-computation, tries, hash-tables
      For example: Sorting the data, creating a hash table, etc.
-5. Best Conceivable Runtime
+5. Best Conceivable Runtime: What is the best runtime you could possibly imagine getting?
+     Think of this example:
+     > Given an array, find all pairs that sum to the median value.
+6. If your algorithm is already runtime-optimal, consider optimizng for space complexity.
 
 </details>

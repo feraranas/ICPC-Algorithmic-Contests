@@ -15,7 +15,7 @@ Then, generalizing:
 def count_pairs_which_sum_to_max(array):
      max_value = max(array) # O(a)
      count = 0 
-     for left in range(0, len(array)):
+     for left in range(0, len(array)): # O(a^2)
           for right in range(left + 1, len(array)):
                left_value = array[left]
                right_value = array[right]

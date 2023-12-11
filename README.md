@@ -93,5 +93,15 @@
 - Divide and Conquer [DivideAndConquer.py](./ICPCExercises/DivideAndConquer/DivideAndConquer.py)
 - Marin and Anti-coprime Permutation [MarinAnti-coprimePermutation.py](./ICPCExercises/MarinAnti-coprimePermutation/MarinAnti-coprimePermutation.py)
 </details>
+<hr style="border:2px solid gray">
 
+<details>
+<summary>BACKTRACKING</summary>
+<hr style="border:2px solid gray">
+
+- README info [README.md](./Backtracking/README.md)
+- [Permutation of a String](./Backtracking/permutationsString/README.md)
+- [Permutations of a String To a String.py](./Backtracking/permutationsStringToString/README.md)
+- [Subsets of a Given Array](./Backtracking/subsetsOfGivenArray/README.md)
+</details>
 <hr style="border:2px solid gray">

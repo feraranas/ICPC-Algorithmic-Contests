@@ -26,10 +26,10 @@ O(a*k) time complexity
 -       k: largest even number
 '''
 def print_even_sequence(array):
-  for a in array:
+  for a in array: # O(a)
     if a % 2 == 0:
       print("sequence for {0}".format(a))
-      for k in range(0,a):
+      for k in range(0,a): # O(k)
         print(k, end=" ")
   print()  
 

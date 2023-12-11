@@ -56,8 +56,8 @@ def binary_search(arr, elem):
 def find_number_of_common_numbers_optimized(array1, array2):
     common_count = 0
 
-    for elem1 in array1:
-        if binary_search(array2, elem1):
+    for elem1 in array1: # O(n)
+        if binary_search(array2, elem1): # O(log(n))
             common_count += 1
 
     return common_count

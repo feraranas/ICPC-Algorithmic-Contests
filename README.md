@@ -100,8 +100,24 @@
 <hr style="border:2px solid gray">
 
 - README info [README.md](./Backtracking/README.md)
+- [Subsets of a Given Array](./Backtracking/subsetsOfGivenArray/README.md)
 - [Permutation of a String](./Backtracking/permutationsString/README.md)
 - [Permutations of a String To a String.py](./Backtracking/permutationsStringToString/README.md)
-- [Subsets of a Given Array](./Backtracking/subsetsOfGivenArray/README.md)
+</details>
+<hr style="border:2px solid gray">
+
+<details>
+<summary>GREEDY</summary>
+<hr style="border:2px solid gray">
+
+- README info [README.md](./Greedy/README.md)
+</details>
+<hr style="border:2px solid gray">
+
+<details>
+<summary>BRANCH N BOUND</summary>
+<hr style="border:2px solid gray">
+
+- README info [README.md](./BranchNBound/README.md)
 </details>
 <hr style="border:2px solid gray">

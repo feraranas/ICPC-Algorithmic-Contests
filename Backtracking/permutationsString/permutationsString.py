@@ -10,3 +10,9 @@ a - 'cdb' | b - 'cda' | c - 'bda' | d - 'bca'
 a - 'dbc' | b - 'dac' | c - 'dbc' | d - 'cab'
 a - 'dcb' | b - 'dca' | c - 'dcb' | d - 'cba'
 '''
+
+def permutations_of_string(string):
+     return
+
+if __name__ == "__main__":
+     permutations_of_string('abcd') 

@@ -1,5 +1,7 @@
 # Subsets Of Given Array
 
+Code: [subsetsOfGivenArray.py](subsetsOfGivenArray.py)
+
 > Given an array Arr[] of size N, print all the subsets of the array.
 
 - Subset: A subset of an array is a tuple that can be obtained from the array by removing some (possibly all) elements of it.
@@ -35,14 +37,16 @@ Suppose an array of size 3 having elements {1,2,3}, the state space can be const
 <img width=500px src="state-space.png">
 
 <h3>PSEUDOCODE</h3>
-<ol>
+<ul>
 <li>It starts with an empty subset and adds it to the result list.</li>
 <li>It iterates through the elements of the input vector.</li>
 <li>
-     <ol>
+     <ul>
      <li>Includes the current element in the subset.</li>
      <li>Recursively calls itself with the updated subset and the next index</li>
      <li>Excludes the current element from the subset (backtracks)</li>
-     </ol>
+     </ul>
 </li>
-</ol>
+</ul>
+
+References: [geekforgeeks](https://www.geeksforgeeks.org/backtracking-to-find-all-subsets/?ref=lbp)

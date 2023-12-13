@@ -9,6 +9,8 @@
 
 3. Backtracking is a problem-solving algorithmic technique that involves finding a solution incrementally by trying different options and undoing them if they lead to a dead end. When a dead end is reached, the algorithm backtracks to the previous decision point and explores a different path until a solution is found or all possibilities have been exhausted.
 
+4. Is a general algorithm for finding all the solutions to some computational problems, notably constraint satisfaction problems, that incrementally builds possible candidates to the solutions and abandons a candidate as soon as it determines that the candidate cannot possibly be completed to finally become a valid solution. It is an algorithmic-technique for solving problems recursively by trying to build a solution incrementally, one piece at a time, removing those solutions that fail to satisfy the constraints of the problem at any point of time (by time, here, is referred to the time elapsed till reaching any level of the search tree).
+
 </details>
 
 <details>
@@ -135,7 +137,7 @@ These complexities are due to the fact that at each state we have multiple choic
 <summary>Backtracking difference from Recursion</summary>
 
 | | |
-| :------------------------------------------------------------------------------------------------------------------: | :-----------------------------------------------------------------------------------------------------------------: |
+| :----: | :----: |
 |Recursion|Backtracking|
 |Recursion doesn't always need backtracking.|Backtracking always uses recursion to solve problems.|
 |Solving problems by breaking them into smaller, similar subproblems and solving them recursively.|Solving problems with multiple choices and exploring options systematically, backtracking when needed.|
@@ -144,18 +146,37 @@ These complexities are due to the fact that at each state we have multiple choic
 
 </details>
 
+<details>
+<summary>Backtracking difference from Branch-N-Bound technique</summary>
+
+| | | |
+| :----: | :----: | :----: |
+|Parameter|Backtracking|Branch-N-Bound technique|
+|Approach|Backtracking is used to find all possible solutions available to a problem. When it realises that is has made a bad choice, it undoes the last choice by backing it up. It searches the state space tree until it has found a solution for the problem.|Branch-n-bound is used to solve optimisation problems. When it realises that it already has a better optimal solution that the pre-solution leads to, it abandons that pre-solution. It completely searches the state space tree to get optimal solution.|
+|Traversal|Backtracking traverses the state space tree by DFS (Depth First Search) manner.|Branch-n-bound traverses the tree in any manner. DFS or BFS.|
+|Function|Backtracking involves feasibility function.|Branch-n-bound involves a bounding function.|
+|Problems|Backtracking is used for solving Decision Problem.|Branch-n-bound is used for solving Optimisation Problem.|
+|Searching|In backtracking, the state space tree is searched until the solution is obtained.|In Branch-and-Bound as the optimum solution may be present any where in the state space tree, so the tree need to be searched completely.|
+|Efficiency|Backtracking is more efficient.|Backtracking is less efficient.|
+|Applications|Useful in solving N-Queen Problem, Sum of subset, Hamilton cycle problem, graph coloring problem.|Useful in solving Knapsack Problem, Travelling Salesman Problem.|
+|Solve|Backtracking can solve almost any problem. (chess, sudoku, etc ).|Branch-n-bound cannot solve almost any problem.|
+
+</details>
 
 
 
 
 <h5>Exercises</h5>
-<ol>
-     <li>Subsets of a given Set or Array</li>
-     <li>Permutation of a given String</li>
-     <li>Permutation of a given String within another given String</li>
-     <li>N-Queen Problem</li>
-     <li>Solve Sudoku</li>
-     <li>M-coloring problem</li>
-     <li>Rat in a Maze</li>
-     <li>The Knight's Tour problem</li>
-</ol>
+
+|Algorithm|Description|Example|
+| :----: | :----: | :----: |
+|[Get all the subsets of a given array](./subsetsOfGivenArray/README.md)|Given an array Arr[] of size N, print all the subsets of the array.|Input N = 3, Arr = [1,2,3], Output: {}, {1}, {2}, {3}, {1,2}, {1,3}, {2,3}, {1,2,3}|
+|[Check if a string is Sum String](./sumString/README.md)|Given a string of digits, determine whether it is a 'sum-string'. A string S is called a sum-string if the rightmost substring can be written as the sum of two substrings before it and the same is recursively true for substrings before.|Input "12243660" is a sum string. Explanation: 24 + 36 = 60, 12 + 24 = 36|
+|[Count all possible paths vetween the vertices](./countPathsBetweenVertices/README.md)| | |
+|[Permutation of a given string](./permutationsString/README.md)| | |
+|[Permutation of a given string within another given string](./permutationsStringToString/README.md)| | |
+|[N-Queen problem]()| | |
+|[Solve Sudoku]()| | |
+|[M-coloring problem]()| | |
+|[Rat in a Maze]()| | |
+|[The Knight's Tour problem]()| | |

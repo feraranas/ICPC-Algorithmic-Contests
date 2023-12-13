@@ -39,6 +39,24 @@
 4. Optimize => If came up with something slow, just state the runtime & do an effort to optimize.
 5. Walk through the algorithm => make sure you know exactly what you're doing before you code.
 6. Once you're all done, look for any improvements.
+
+<h2>Checklist when interviewing</h2>
+
+Description | Checklist
+:------------ | :-------------|
+The participant is brainstorming potential solutions before writing code. | :heavy_check_mark:
+The participant found efficient algorithms and data structures for the solution. | :heavy_check_mark:
+The tradeoffs of the potential algorithms and data structures was discussed. | :heavy_check_mark:
+The participant completed the problem with a working solution. | :heavy_check_mark:
+The participant wrote organized and readable code. | :heavy_check_mark:
+The participant didn't miss unsafe code. | :heavy_check_mark:
+The participant verified the solution with an example. | :heavy_check_mark:
+The participant found bugs if any. | :heavy_check_mark:
+The participant considered multiple corner cases in the verification. | :heavy_check_mark:
+The participant communicated effectively. | :heavy_check_mark:
+The participant responded well to feedback. | :heavy_check_mark:
+
+
 </details>
 
 <details>

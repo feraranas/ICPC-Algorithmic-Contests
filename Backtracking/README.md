@@ -172,6 +172,7 @@ These complexities are due to the fact that at each state we have multiple choic
 | :----: | :----: | :----: |
 |[Get all the subsets of a given array](./subsetsOfGivenArray/README.md)|Given an array Arr[] of size N, print all the subsets of the array.|Input N = 3, Arr = [1,2,3], Output: {}, {1}, {2}, {3}, {1,2}, {1,3}, {2,3}, {1,2,3}|
 |[Check if a string is Sum String](./sumString/README.md)|Given a string of digits, determine whether it is a 'sum-string'. A string S is called a sum-string if the rightmost substring can be written as the sum of two substrings before it and the same is recursively true for substrings before.|Input "12243660" is a sum string. Explanation: 24 + 36 = 60, 12 + 24 = 36|
+|[Count all possible paths vetween the vertices](./countPathsBetweenVertices/README.md)| | |
 |[Permutation of a given string](./permutationsString/README.md)| | |
 |[Permutation of a given string within another given string](./permutationsStringToString/README.md)| | |
 |[N-Queen problem]()| | |

@@ -8,4 +8,5 @@
 |[Largest Subarray Sum](./largestSubArraySum/README.md)|There's an array of integers, I need to find the largest sum across all contiguous subarrays.|Input: [-1,-1,3,2,-5,1], Output: 5, subarray indices [2,3]|
 |[Ones Minus Zeros Matrix](./onesMinusZeros/README.md)|You are given a m x n binary matrix grid, add the number of 1s from row[i] & col[j], then substract the number of 0s from row[i] & col[j]|Input: grid = [[0,1,1],[1,0,1],[0,0,1]], Output: [[0,0,4],[0,0,4],[-2,-2,2]]|
 |[Maximum Connected Subgraph of 1s](./maximalMexicanMates/README.md)|Find the size of the largest connected subgraph.|Input: [[1 0 1],[1 1 1],[1 0 0]], Output: 6|
-||||
+|[Island Perimeter](./islandPerimeter/README.md)|Find the perimeter of a subconnected graph of 1s|Input: grid = [[0,1,0,0],[1,1,1,0],[0,1,0,0],[1,1,0,0]], Output: 16|
+|[01 Matrix](./01Matrix/README.md)|Given an m x n binary matrix mat, return the distance of the nearest 0 for each cell. The distance between two adjacent cells is 1.|Input: mat = [[0,0,0],[0,1,0],[1,1,1]], Output: [[0,0,0],[0,1,0],[1,2,1]]|

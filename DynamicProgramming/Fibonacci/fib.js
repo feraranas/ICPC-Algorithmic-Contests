@@ -21,11 +21,9 @@ O(2^n) time
 O(n) space
 */
 
-const fib =
-    (n) => {
-      if (n <= 2)
-        return 1;
-      return fib(n - 1) + fib(n - 2);
-    }
+const fib = (n) => {
+  if (n <= 2) return 1;
+  return fib(n - 1) + fib(n - 2);
+};
 
-           console.log(fib(13));
+console.log(fib(13));

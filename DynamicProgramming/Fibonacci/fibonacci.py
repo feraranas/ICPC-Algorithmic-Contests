@@ -1,4 +1,9 @@
 def fibonacci(n):
+    """
+
+    :param n: 
+
+    """
     if n == 0:
         return 0
     elif n <= 2:
@@ -16,6 +21,12 @@ def fibonacci(n):
 
 
 def fibonacci_memo(n, memo={}):
+    """
+
+    :param n: 
+    :param memo:  (Default value = {})
+
+    """
     if memo.get(n):
         return memo[n]
     if n == 0:

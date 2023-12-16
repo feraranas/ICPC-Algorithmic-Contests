@@ -1,7 +1,7 @@
 def fibonacci(n):
     """
 
-    :param n: 
+    :param n:
 
     """
     if n == 0:
@@ -23,7 +23,7 @@ def fibonacci(n):
 def fibonacci_memo(n, memo={}):
     """
 
-    :param n: 
+    :param n:
     :param memo:  (Default value = {})
 
     """

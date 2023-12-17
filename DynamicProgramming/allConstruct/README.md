@@ -17,25 +17,25 @@ The function should return a 2D array containing ```all of the ways``` that ```t
      [abcd, ef]
 ]
 
-<img width=350px src="ex1.png">
+<img width=350px src="./assets/ex1.png">
 
-<img width=350px src="ex2.png">
+<img width=350px src="./assets/ex2.png">
 
-<img width=350px src="ex3.png">
+<img width=350px src="./assets/ex3.png">
 
-<img width=350px src="ex4.png">
+<img width=350px src="./assets/ex4.png">
 
-<img width=350px src="ex5.png">
+<img width=350px src="./assets/ex5.png">
 
-<img width=350px src="ex6.png">
+<img width=350px src="./assets/ex6.png">
 
-<img width=350px src="ex7.png">
+<img width=350px src="./assets/ex7.png">
 
-<img width=350px src="ex8.png">
+<img width=350px src="./assets/ex8.png">
 
-<img width=350px src="ex9.png">
+<img width=350px src="./assets/ex9.png">
 
-<img width=350px src="ex10.png">
+<img width=350px src="./assets/ex10.png">
 
 
 ```countConstruct(purple, [purp, p, ur, le, purpl]) -> 2```
@@ -45,17 +45,17 @@ The function should return a 2D array containing ```all of the ways``` that ```t
      [p, ur, p, le]
 ]
 
-<img width=350px src="ex11.png">
+<img width=350px src="./assets/ex11.png">
 
-<img width=350px src="ex12.png">
+<img width=350px src="./assets/ex12.png">
 
-<img width=350px src="ex13.png">
+<img width=350px src="./assets/ex13.png">
 
-<img width=350px src="ex14.png">
+<img width=350px src="./assets/ex14.png">
 
-<img width=350px src="ex15.png">
+<img width=350px src="./assets/ex15.png">
 
-<img width=350px src="ex16.png">
+<img width=350px src="./assets/ex16.png">
 
 ```countConstruct(hello, [cat, dog, mouse]) -> []```
 
@@ -71,6 +71,6 @@ The function should return a 2D array containing ```all of the ways``` that ```t
 
 <h2>Complexity</h2>
 
-<img width=350px src="ex17.png">
+<img width=350px src="./assets/ex17.png">
 
-<img width=350px src="ex18.png">
+<img width=350px src="./assets/ex18.png">

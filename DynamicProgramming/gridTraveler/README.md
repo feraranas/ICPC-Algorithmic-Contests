@@ -12,13 +12,13 @@ Write a function ```gridTraveler(m,n)```
 
 ```gridTraveler(2,3)```
 
-<img width=120px src="ex1.png">
+<img width=120px src="./assets/ex1.png"">
 
 Solutions:
 
-1. <img width=330px src="ex2.png">
-2. <img width=330px src="ex3.png">
-3. <img width=330px src="ex4.png">
+1. <img width=330px src="./assets/ex2.png"">
+2. <img width=330px src="./assets/ex3.png"">
+3. <img width=330px src="./assets/ex4.png"">
 
 Think of the easiest possible case:
 
@@ -55,17 +55,17 @@ Now let's say we try to solve a (3,3) travel:
 
  <h3>Tree Recursive Visualization</h3>
 
-<img width=350px src=ex5.png>
+<img width=350px src="./assets/ex5.png">
 
-<img width=350px src=ex6.png>
+<img width=350px src="./assets/ex6.png">
 
-<img width=350px src=ex7.png>
+<img width=350px src="./assets/ex7.png">
 
-<img width=350px src=ex8.png>
+<img width=350px src="./assets/ex8.png">
 
 Also, we know what combination of moves lead to a solution.
 
-<img width=350px src=ex9.png>
+<img width=350px src="./assets/ex9.png">
 
 <h2>Complexity</h2>
 
@@ -77,17 +77,17 @@ To reach this base case we can substract -1 from each parameter so we have:
 
 ### Brute Forced
 
-<img width=350px src=ex10.png>
+<img width=350px src="./assets/ex10.png">
 
 ### Memoized
 
-<img width=350px src=ex12.png>
+<img width=350px src="./assets/ex12.png">
 
 <h2>Memoization</h2>
 
 Identify duplicate sub-problems.
 
-<img width=350px src=ex11.png>
+<img width=350px src="./assets/ex11.png">
 
 <h2>References</h2>
 

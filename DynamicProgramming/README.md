@@ -69,6 +69,18 @@
 
 </details>
 
+<details>
+<summary>Tabulation Recipe</summary>
+
+- Visualize the problem as a table
+- Size the table based on the inputs
+- Initialize the table with default values
+- Seed the trivial answer into the table
+- Iterate through the table
+- Fill further positions based on the current position (logic comes in different from problem to problem) -> it relates to the 'logic of shrinking with each recursion call'. In other words, seek 'for the language of the problem'.
+
+</details>
+
 |Problem|Description|Example|
 | :----: | :----: | :----: |
 |[Fibonacci](./Fibonacci/README.md)|Write a function fib(n) that takes in a number as an argument. The function should return the n-th number of the fibonacci sequence. The 1st and 2nd number of the sequence is 1. To generate the next number of the sequence, we sum the previous two.|Input: n=9, Output: 24|
@@ -78,6 +90,7 @@
 |[Best Sum](./bestSum/README.md)|The function should return an array containing the shortest combination of numbers that add up to exactly the targetSum. What is the best way to do it? => It's an **Optimization Problem**|```bestSum(7, [5,3,4,7])``` -> [7]|
 |[Can Construct](./canConstruct/README.md)|Write a function ```canConstruct(target, wordBank)``` that accepts a target string and an array of strings. The function should return a boolean indicating whether or not the ```target``` can be constructed by concatenating elements of the ```wordBank``` array.|```canConstruct(abcdef, [ab, abc, cd, def, abcd])``` -> True "abc" + "def"|
 |[Count Construct](./countConstruct/README.md)|Write a function ```countConstruct(target, wordBank)``` that accepts a target string and an array of strings. The function should return the number of ways that the ```target``` can be constructed by concatenating elements of the ```worldBank``` array.|```countConstruct(purple, [purp, p, ur, le, purpl]) -> 2```|
+|[All Construct](./allConstruct/README.md)|||
 |[01 Matrix](./01Matrix/README.md)|Given an m x n binary matrix mat, return the distance of the nearest 0 for each cell.The distance between two adjacent cells is 1.|Input: mat = [[0,0,0],[0,1,0],[1,1,1]], Output: [[0,0,0],[0,1,0],[1,2,1]]|
 ||||
 

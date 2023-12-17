@@ -26,6 +26,7 @@ print()
 print()
 print()
 
+# w/memo
 def howSumMemoized(targetSum, arr, memo = {}):
      if targetSum in memo:
           return memo[targetSum]

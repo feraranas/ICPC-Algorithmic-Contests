@@ -16,49 +16,49 @@ If there are multiple combination possible, you may return any single one.
 ```howSum(7, [2,4]) -> null```
 ```howSum(0, [1,2,3]) -> []```
 
-<img width=300px src="ex1.png">
+<img width=300px src="./assets/ex1.png">
 
-<img width=300px src="ex2.png">
+<img width=300px src="./assets/ex2.png">
 
 Add the current choice actually.
 
-<img width=300px src="ex3.png">
+<img width=300px src="./assets/ex3.png">
 
-<img width=300px src="ex4.png">
+<img width=300px src="./assets/ex4.png">
 
-<img width=300px src="ex5.png">
+<img width=300px src="./assets/ex5.png">
 
 Or, the far right case.
 
-<img width=300px src="ex6.png">
+<img width=300px src="./assets/ex6.png">
 
-<img width=300px src="ex7.png">
+<img width=300px src="./assets/ex7.png">
 
-<img width=300px src="ex8.png">
+<img width=300px src="./assets/ex8.png">
 
 But, let's consider this base cases we hit:
 
-<img width=300px src="ex9.png">
+<img width=300px src="./assets/ex9.png">
 
-<img width=300px src="ex10.png">
+<img width=300px src="./assets/ex10.png">
 
-<img width=300px src="ex11.png">
+<img width=300px src="./assets/ex11.png">
 
 Here, the array of 4 wins out the null. Because we know that there's a way to generate a 4.
 
-<img width=300px src="ex12.png">
+<img width=300px src="./assets/ex12.png">
 
-<img width=300px src="ex13.png">
+<img width=300px src="./assets/ex13.png">
 
-<img width=300px src="ex14.png">
+<img width=300px src="./assets/ex14.png">
 
-<img width=300px src="ex15.png">
+<img width=300px src="./assets/ex15.png">
 
 Here, we are happy with at least one solution.
 
-<img width=300px src="ex16.png">
+<img width=300px src="./assets/ex16.png">
 
-<img width=300px src="ex17.png">
+<img width=300px src="./assets/ex17.png">
 
 <h2>Complexity</h2>
 

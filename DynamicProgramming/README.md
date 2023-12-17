@@ -77,6 +77,7 @@
 |[How Sum](./howSum/README.md)|The function should return an array containing any combination of elements that add up to exactly the targetSum. If there is no combination that adds up to the targetSum then return null. How will you do it? => It's a **Combinatoric Problem**|```howSum(7, [2,3,4,7])``` -> [2,2,2,2]|
 |[Best Sum](./bestSum/README.md)|The function should return an array containing the shortest combination of numbers that add up to exactly the targetSum. What is the best way to do it? => It's an **Optimization Problem**|```bestSum(7, [5,3,4,7])``` -> [7]|
 |[Can Construct](./canConstruct/README.md)|Write a function ```canConstruct(target, wordBank)``` that accepts a target string and an array of strings. The function should return a boolean indicating whether or not the ```target``` can be constructed by concatenating elements of the ```wordBank``` array.|```canConstruct(abcdef, [ab, abc, cd, def, abcd])``` -> True "abc" + "def"|
+|[Count Construct](./countConstruct/README.md)|Write a function ```countConstruct(target, wordBank)``` that accepts a target string and an array of strings. The function should return the number of ways that the ```target``` can be constructed by concatenating elements of the ```worldBank``` array.|```countConstruct(purple, [purp, p, ur, le, purpl]) -> 2```|
 |[01 Matrix](./01Matrix/README.md)|Given an m x n binary matrix mat, return the distance of the nearest 0 for each cell.The distance between two adjacent cells is 1.|Input: mat = [[0,0,0],[0,1,0],[1,1,1]], Output: [[0,0,0],[0,1,0],[1,2,1]]|
 ||||
 

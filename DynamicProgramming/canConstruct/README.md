@@ -18,17 +18,17 @@ To generate the empty string we could take zero elements from the array. So we'l
 
 ```canConstruct('', [cat, dog, mouse])``` -> True
 
-<img width=350px src="ex1.png">
+<img width=350px src="./assets/ex1.png">
 
-<img width=350px src="ex2.png">
+<img width=350px src="./assets/ex2.png">
 
-<img width=350px src="ex3.png">
+<img width=350px src="./assets/ex3.png">
 
-<img width=350px src="ex4.png">
+<img width=350px src="./assets/ex4.png">
 
 **New example**
 
-<img width=350px src="ex5.png">
+<img width=350px src="./assets/ex5.png">
 
 <h2>Complexity</h2>
 
@@ -38,7 +38,7 @@ We want to generalize this understanding for any input. Using different variable
 
 - worst case: the branching factor (how many branches branch from each level to the next), will multiply by **n** (every element in the word bank being a valid (matching) prefix).
 
-<img width=350px src="ex6.png">
+<img width=350px src="./assets/ex6.png">
 
 <h3>w/o Memoization</h3>
 
@@ -50,12 +50,12 @@ but considering the **slice** operation, which is O(m) should be taken into acco
 
 Consider the line 6 of this figure: (makes space complexity $O(m^2)$)
 
-<img width=350px src="ex7.png">
+<img width=350px src="./assets/ex7.png">
 
 <h3>w Memoization</h3>
 
-<img width=350px src="ex8.png">
+<img width=350px src="./assets/ex8.png">
 
 The second **m** in Time Complexity comes from the slice. 
 
-<img width=350px src="ex9.png">
+<img width=350px src="./assets/ex9.png">

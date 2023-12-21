@@ -16,6 +16,9 @@ Pseudocode:
      add it to the overall sum.
 '''
 
+from collections import deque
+
+
 def partOne(matrix):
      
      sum = 0
@@ -34,8 +37,11 @@ def partOne(matrix):
      c = len(matrix[0])
      for i in range(r):
           tmp = ''
+          queue = deque()
           for j in range(c):
                if matrix[i][j].isnumeric():
+                    tmp += matrix[i][j]
+                    queue.add((i, j))
                     
           
 

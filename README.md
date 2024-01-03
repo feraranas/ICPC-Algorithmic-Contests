@@ -1,4 +1,4 @@
-# ICPC Algorithmic Problems -> Exercises for Competitive Programming
+# ICPC Algorithmic Problems -> Exercises for Competitive Programming & Coding Interviews
 
 <details>
   <summary> GENERAL STEPS IN SOLVING A PROBLEM</summary>
@@ -43,81 +43,104 @@
   </ol>
 </details>
 
-<hr style="border:2px solid gray">
-<details>
-<summary>DYNAMIC PROGRAMMING PROBLEMS</summary>
-<hr style="border:2px solid gray">
+<h4>Arrays & Hashing</h4>
 
-- Best Sum Memoized [bestSum-memoization.js](./DynamicProgramming/NumericProblems/bestSum/bestSum-memoization.js)
-- Can Sum Memoized [canSum-memoization.js](./DynamicProgramming/NumericProblems/canSum/canSum-memoization.js)
-- Fibonacci Memoized [fib-memoization.js](./DynamicProgramming/NumericProblems/Fibonacci/fib-memoization.js)
-- Grid Traveler Memoized [grid-traveler-memoization.js](./DynamicProgramming/NumericProblems/gridTraveler/grid-traveler-memoization.js)
-- How Sum Memoized [howSum-memoization.js](./DynamicProgramming/NumericProblems/howSum/howSum-memoization.js)
-</details>
+|Problem|Description|Example|
+| :----: | :----: | :----: |
+||||
 
-<hr style="border:2px solid gray">
-<details>
-<summary>STRING MANIPULATION PROBLEMS</summary>
+<h4>Two Pointers</h4>
 
-<hr style="border:2px solid gray">
+|Problem|Description|Example|
+| :----: | :----: | :----: |
+||||
 
-- All Construct [.js](./DynamicProgramming/StringProblems/allConstruct/allConstruct.js)
-- Can Construct Memoized [canConstructMemoized.js](./DynamicProgramming/StringProblems/canConstruct/canConstructMemoized.js)
-- Count Construct Memoized [countConstruct-memoized.js](./DynamicProgramming/StringProblems/countConstruct/countConstruct-memoized.js)
-</details>
+<h4>Sliding Window</h4>
 
-<hr style="border:2px solid gray">
-<details>
-<summary>NUMERICAL PROBLEMS</summary>
+|Problem|Description|Example|
+| :----: | :----: | :----: |
+||||
 
-<hr style="border:2px solid gray">
+<h4>Stack</h4>
 
-- GCD Arrays [gcdArrays.py](./ICPCExercises/GCDArrays/gcdArrays.py)
-- Madoka and Math Dad [MadokaMathDad.py](./ICPCExercises/MadokaMathDad/MadokaMathDad.py)
-- Gifts Fixing [GiftsFixing.py](./ICPCExercises/GiftsFixing/GiftsFixing.py)
-- Gregory And Cryptography [GregoryAndCryptography.py](./ICPCExercises/GregorAndCryptography/GregoryAndCryptography.py)
-- Jewels And Stones (1) [JewelsAndStones.cpp](./ICPCExercises/JewelsAndStones/JewelsAndStones.cpp)
-- Jewels And Stones (2) [JewelsAndStones.py](./ICPCExercises/JewelsAndStones/JewelsAndStones.py)
-- Magical Sticks [MagicalSticks.py](./ICPCExercises/MagicalSticks/MagicalSticks.py)
-- Majority Element [MajorityElement.py](./ICPCExercises/MajorityElement/MajorityElement.py)
-- Max Sell Stock [MaxSellStock.py](./ICPCExercises/MaxSellStock/MaxSellStock.py)
-- Minimal Square [MinimalSquare.py](./ICPCExercises/MinimalSquare/MinimalSquare.py)
-</details>
+|Problem|Description|Example|
+| :----: | :----: | :----: |
+||||
 
-<hr style="border:2px solid gray">
-<details>
-<summary>NUMBER'S THEORY</summary>
+<h4>Binary Search</h4>
 
-<hr style="border:2px solid gray">
+|Problem|Description|Example|
+| :----: | :----: | :----: |
+||||
 
-- Divide and Conquer [DivideAndConquer.py](./ICPCExercises/DivideAndConquer/DivideAndConquer.py)
-- Marin and Anti-coprime Permutation [MarinAnti-coprimePermutation.py](./ICPCExercises/MarinAnti-coprimePermutation/MarinAnti-coprimePermutation.py)
-</details>
-<hr style="border:2px solid gray">
+<h4>Linked List</h4>
 
-<details>
-<summary>BACKTRACKING</summary>
-<hr style="border:2px solid gray">
+|Problem|Description|Example|
+| :----: | :----: | :----: |
+||||
 
-- README info [README.md](./Backtracking/README.md)
-- [Subsets of a Given Array](./Backtracking/subsetsOfGivenArray/README.md)
-- [Permutation of a String](./Backtracking/permutationsString/README.md)
-- [Permutations of a String To a String.py](./Backtracking/permutationsStringToString/README.md)
-</details>
-<hr style="border:2px solid gray">
+<h4>Trees</h4>
 
-<details>
-<summary>GREEDY</summary>
-<hr style="border:2px solid gray">
+|Problem|Description|Example|
+| :----: | :----: | :----: |
+||||
 
-- README info [README.md](./Greedy/README.md)
-</details>
-<hr style="border:2px solid gray">
+<h4>Tries</h4>
 
-<details>
-<summary>BRANCH N BOUND</summary>
-<hr style="border:2px solid gray">
+|Problem|Description|Example|
+| :----: | :----: | :----: |
+||||
 
-- README info [README.md](./BranchNBound/README.md)
-</details>
-<hr style="border:2px solid gray">
+<h4>Heap / Priority Queue</h4>
+
+|Problem|Description|Example|
+| :----: | :----: | :----: |
+||||
+
+<h4>Backtracking</h4>
+
+|Problem|Description|Example|
+| :----: | :----: | :----: |
+||||
+
+<h4>Graphs</h4>
+
+|Problem|Description|Example|
+| :----: | :----: | :----: |
+||||
+
+<h4>Advanced Graphs</h4>
+
+|Problem|Description|Example|
+| :----: | :----: | :----: |
+||||
+
+<h4>Dynamic Programming Graphs</h4>
+
+|Problem|Description|Example|
+| :----: | :----: | :----: |
+||||
+
+<h4>Greedy</h4>
+
+|Problem|Description|Example|
+| :----: | :----: | :----: |
+||||
+
+<h4>Intervals</h4>
+
+|Problem|Description|Example|
+| :----: | :----: | :----: |
+||||
+
+<h4>Math & Geometry</h4>
+
+|Problem|Description|Example|
+| :----: | :----: | :----: |
+||||
+
+<h4>Bit Manipulation</h4>
+
+|Problem|Description|Example|
+| :----: | :----: | :----: |
+||||

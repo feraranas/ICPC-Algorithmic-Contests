@@ -11,9 +11,13 @@ If there are multiple combination possible, you may return any single one.
 <h2>Example</h2>
 
 ```howSum(7, [5,3,4,7]) -> [7]```
+
 ```howSum(7, [2,3,4,7]) -> [2,2,2,2]```
+
 ```howSum(8, [2,3,5,7]) -> [3,5]```
+
 ```howSum(7, [2,4]) -> null```
+
 ```howSum(0, [1,2,3]) -> []```
 
 <img width=300px src="./assets/ex1.png">
